@@ -1,0 +1,26 @@
+t1='hani','vinni','anki'#created tuple
+print(t1)
+
+t2=1234,'phython',23.6,'program'#tuple with diffrent data type]
+print(t2)
+
+t3=('hani')#tuple to string
+print(tuple(t3))
+
+t4=['45','56','67','8']#slice a tuple
+print(t4[1:2])
+
+print(len(t4))#length of tuple
+
+t5=[('a',23),('b',45),('c',44)]#tuple to dictonary
+print(dict([('a',23),('b',45),('c',44)]))
+
+tuples=('2','3','4')#Reverse of tuples
+reversedTuples=tuple(reversed(tuples))
+print(reversedTuples)
+
+
+t6=[('a',23),('b',45),('c',44)]#list of tuple to dictonary
+print(dict([('a',23),('b',45),('c',44)]))
+
+
